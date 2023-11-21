@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sanrio_airline.SignUpController">
+   <children>
+      <Label layoutX="286.0" layoutY="29.0" text="Member Registration">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="78.0" text=" First Name: " />
+      <Label layoutX="400.0" layoutY="87.0" text="Last Name:" />
+      <Label layoutX="55.0" layoutY="127.0" text="Address: " />
+      <Label layoutX="494.0" layoutY="136.0" text="Zip: " />
+      <Label layoutX="365.0" layoutY="136.0" text="State:" />
+      <Label layoutX="154.0" layoutY="257.0" text="Username: " />
+      <Label layoutX="154.0" layoutY="304.0" text="Password:" />
+      <Label layoutX="153.0" layoutY="345.0" text="Security Question:" />
+      <Label layoutX="153.0" layoutY="385.0" prefHeight="18.0" prefWidth="107.0" text="Security Answer: " />
+      <TextField id="SignupFirstNameBox" layoutX="160.0" layoutY="74.0" prefHeight="25.0" prefWidth="185.0" promptText="First Name" />
+      <TextField layoutX="494.0" layoutY="83.0" promptText="Last Name" />
+      <TextField layoutX="124.0" layoutY="123.0" prefHeight="25.0" prefWidth="223.0" promptText="Street" />
+      <TextField layoutX="413.0" layoutY="132.0" prefHeight="25.0" prefWidth="41.0" promptText="State" />
+      <Label layoutX="117.0" layoutY="199.0" text="Member Type:" />
+      <TextField layoutX="308.0" layoutY="254.0" promptText="Insert an Username" />
+      <TextField layoutX="308.0" layoutY="301.0" promptText="Insert a Password" />
+      <ChoiceBox layoutX="301.0" layoutY="340.0" prefHeight="27.0" prefWidth="293.0" />
+      <TextField layoutX="529.0" layoutY="132.0" prefHeight="25.0" prefWidth="115.0" promptText="Zip Code" />
+      <TextField layoutX="308.0" layoutY="381.0" prefHeight="25.0" prefWidth="285.0" promptText="Insert your security answer" />
+      <ChoiceBox layoutX="211.0" layoutY="194.0" prefWidth="150.0" />
+      <Hyperlink layoutX="19.0" layoutY="18.0" text="Sanrio Airline " />
+      <Hyperlink layoutX="557.0" layoutY="467.0" text="Member Login " />
+      <Label layoutX="433.0" layoutY="470.0" text="Already a memeber?" />
+      <Label layoutX="413.0" layoutY="199.0" text="Admin Code:" />
+      <TextField layoutX="507.0" layoutY="196.0" promptText="Insert your Admin Code" />
+      <Button layoutX="335.0" layoutY="442.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</AnchorPane>
